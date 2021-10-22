@@ -28,7 +28,7 @@ public class GetRequestStepDefinitoin{
 	@When("I send {string} request for any {string}")
 	public void i_send_request_for_any(String GetURI, String Attribute ) {
 
-		 values =
+		try { values =
 				given().
 					header("User-Agent", "PostmanRuntime/7.6.0").
 					contentType("text/xml").
@@ -40,7 +40,12 @@ public class GetRequestStepDefinitoin{
 						statusCode(200).
 					extract().
 						xmlPath().
-						getList(Attribute);	
+						getList(Attribute);
+		
+		} catch (Exception e){
+			e.printStackTrace();
+		}
+		
 	}
 
 	@Then("I validate the outcome to be more than this {int}")
