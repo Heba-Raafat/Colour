@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-24T19:44:00.583Z",
+        "line": 14,
+        "name": "numView is greater than 4000",
+        "description": "",
+        "id": "get-request-for-numviews-values;numview-is-greater-than-4000;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1272869300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to go to \"http://www.colourlovers.com/api\" API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.colourlovers.com/api\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.java.stepdefinition.GetRequestStepDefinitoin.i_want_to_go_to_api(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7012621800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send \"/patterns\" request for any \"patterns.pattern.numViews\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/patterns\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"patterns.pattern.numViews\"",
+                  "offset": 35
+                }
+              ],
+              "location": "test.java.stepdefinition.GetRequestStepDefinitoin.i_send_request_for_any(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 406229600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the outcome to be more than this 4000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 44
+                }
+              ],
+              "location": "test.java.stepdefinition.GetRequestStepDefinitoin.i_validate_the_outcome_to_be_more_than_this(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetRequestForColourLoversAPI"
+          },
+          {
+            "name": "@GetValuesOfnumViews"
+          }
+        ]
+      }
+    ],
+    "name": "Get request for numViews values",
+    "description": "  Make a GET request to colourlovers api http://www.colourlovers.com/api/patterns \n  and write an assertion for \u003cnumViews\u003e (from response) to be greater than 4000",
+    "id": "get-request-for-numviews-values",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GetRequest.feature",
+    "tags": [
+      {
+        "name": "@GetRequestForColourLoversAPI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -13,4 +13,4 @@
 
 
 
-#check the created reports from extent reports and cucumber reports folders.
+#check the created reports from extent reports and target/Cucumber-reports-html/cucumber-html-reports/overview-features.html.

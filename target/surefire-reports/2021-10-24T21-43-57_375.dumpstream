@@ -1,0 +1,4 @@
+# Created at 2021-10-24T21:43:58.378
+Boot Manifest-JAR contains absolute paths in classpath 'F:\workspace\colourloversAPI\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

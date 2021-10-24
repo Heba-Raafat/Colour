@@ -1,4 +1,4 @@
-package stepdefinition;
+package test.java.stepdefinition;
 import static io.restassured.RestAssured.baseURI;
 import java.util.List;
 import static io.restassured.RestAssured.given;
@@ -21,7 +21,7 @@ public class GetRequestStepDefinitoin{
 	
 	@Given("I want to go to {string} API")
 	public void i_want_to_go_to_api(String colourLoversURI) {
-		exTest = extent.startTest("Start API");	
+		exTest = extent.startTest("Start API");
 		baseURI = colourLoversURI;
 	}
 
