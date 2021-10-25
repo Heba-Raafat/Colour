@@ -1,2 +1,2 @@
-test\java\TestingPackage\GetRequestStepDefinitoin.class
-test\java\TestingPackage\TestRunner.class
+test\java\StepDefs\GetRequestStepDefinitoin.class
+test\java\Runners\TestRunner.class

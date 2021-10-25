@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite"><test verbose="2" preserve-order="true" name="F:/workspace/finalColourLover_Api/src/test/java/TestingPackage/TestRunner.java">
    <classes>
-       <class name="test.java.TestingPackage.TestRunner"></class>
+       <class name="test.java.Runners.TestRunner"></class>
    </classes>
 </test>
 </suite>

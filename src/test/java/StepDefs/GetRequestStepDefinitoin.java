@@ -1,4 +1,4 @@
-package test.java.TestingPackage;
+package test.java.StepDefs;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
