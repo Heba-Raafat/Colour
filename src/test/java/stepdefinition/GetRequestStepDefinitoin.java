@@ -1,18 +1,20 @@
 package test.java.stepdefinition;
-import static io.restassured.RestAssured.baseURI;
-import java.util.List;
-import static io.restassured.RestAssured.given;
-import org.testng.Assert;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.http.ContentType;
-public class GetRequestStepDefinitoin{
+import org.testng.Assert;
+
+import java.util.List;
+
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
+
+public class GetRequestStepDefinitoin {
 	
 	private static ExtentTest exTest;
 	private static ExtentReports extent = new  ExtentReports(System.getProperty("user.dir")+"./Extent reports/Status report.html" , true);

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="F:/workspace/colourloversAPI/src/test/java/testrunner/TestRunner.java">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/workspace/ColourLovers_API/src/test/java/testrunner/TestRunner.java">
+
     <classes>
         <class name="test.java.testrunner.TestRunner"></class>
-    </classes>
-    
-</test>
+    </classes>    
+    </test>
 </suite>
